@@ -15,11 +15,7 @@ jobs:
               with:
                   node-version: '15'
                   cache: 'yarn'
-            - run: yarn install
-            - run: yarn build:hooks
-            - run: yarn build:components
+            - run: echo "Hello $NPM_TOKEN, $GH_TOKEN"
               env:
                   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-            - run: yarn release:hooks
-            - run: yarn release:components
