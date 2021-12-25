@@ -1,0 +1,22 @@
+name: Release npm package
+
+on:
+    push:
+        branches:
+            - master
+
+jobs:
+    release:
+        name: Release hooks
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@master
+            - uses: actions/setup-node@v1
+              with:
+                  node-version: '12.x'
+            - run: yarn install
+            - run: yarn build:hooks
+            - run: yarn workspace @cura/hooks run semantic-release -e semantic-release-monorepo
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

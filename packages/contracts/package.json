@@ -28,6 +28,8 @@
         "@as-pect/cli": "^6.2.4",
         "asbuild": "^0.2.0",
         "near-sdk-as": "^3.2.3",
-        "prettier": "2.5.1"
+        "prettier": "2.5.1",
+        "semantic-release": "^18.0.1",
+        "semantic-release-monorepo": "^7.0.5"
     }
 }

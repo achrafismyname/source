@@ -6,7 +6,9 @@
     "author": "Yassine",
     "license": "MIT",
     "devDependencies": {
-        "prettier": "2.5.1"
+        "prettier": "2.5.1",
+        "semantic-release": "^18.0.1",
+        "semantic-release-monorepo": "^7.0.5"
     },
     "dependencies": {
         "async": "^3.2.2",
