@@ -19,11 +19,11 @@ export function getContractMethods(contractName: string) {
                 viewMethods: [
                     'ft_balance_of',
                     'get_treasury',
+                    
                     'ft_total_supply',
                 ],
             }
         case 'nft':
-            
             return {
                 changeMethods: [
                     'set_bid',
