@@ -13,7 +13,6 @@ export const { nodeUrl, networkId, walletUrl } = getConfig()
 
 export function getContractMethods(contractName: string) {
     switch (contractName) {
-
         case 'ft':            
             return {
                 changeMethods: [],
