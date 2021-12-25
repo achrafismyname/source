@@ -23,6 +23,7 @@ export function getContractMethods(contractName: string) {
                 ],
             }
         case 'nft':
+            
             return {
                 changeMethods: [
                     'set_bid',
