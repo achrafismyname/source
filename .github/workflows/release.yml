@@ -16,7 +16,9 @@ jobs:
                   node-version: '15'
             - run: yarn install
             - run: yarn build:hooks
+            - run: yarn build:components
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-            - run: yarn workspaces foreach run semantic-release -e semantic-release-monorepo
+            - run: yarn release:hooks
+            - run: yarn release:components

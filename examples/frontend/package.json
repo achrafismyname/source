@@ -8,8 +8,8 @@
         "start": "next start"
     },
     "dependencies": {
-        "@cura/components": "workspace:*",
-        "@cura/hooks": "workspace:*",
+        "@cura/components": "latest",
+        "@cura/hooks": "latest",
         "@runwayml/hosted-models": "^0.3.0",
         "@theme-ui/color": "^0.12.1",
         "@theme-ui/match-media": "^0.12.1",

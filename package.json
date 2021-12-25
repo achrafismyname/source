@@ -9,14 +9,17 @@
         "examples/frontend"
     ],
     "scripts": {
-        "build:hooks": "yarn workspace @cura/hooks build",
-        "build:components": "yarn workspace @cura/components build",
-        "build:storybook": "yarn workspace @cura/components build-storybook",
+        "build:hooks": "yarn workspace dummydummyhooks build",
+        "build:components": "yarn workspace dummydummycomponents build",
+        "build:storybook": "yarn workspace dummydummycomponents build-storybook",
         "build:frontend": "yarn build:hooks && yarn build:components && yarn workspace frontend build",
-        "dev:components": "yarn workspace @cura/components storybook",
+        "dev:components": "yarn workspace dummydummycomponents storybook",
         "dev:frontend": "yarn workspace frontend dev",
-        "test:hooks": "yarn workspace @cura/hooks test",
-        "test:contracts": "yarn workspace @cura/contracts test"
+        "test:hooks": "yarn workspace dummydummyhooks test",
+        "test:contracts": "yarn workspace @cura/contracts test",
+        "release:hooks": "yarn workspace dummydummyhooks run semantic-release -e semantic-release-monorepo",
+        "release:components": "yarn workspace dummydummycomponents run semantic-release -e semantic-release-monorepo",
+        "release": "yarn release:hooks && yarn release:components"
     },
     "version": "0.0.0",
     "devDependencies": {
