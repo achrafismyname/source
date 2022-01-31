@@ -1,9 +1,9 @@
 function getConfig() {
     let config = {
-        networkId: 'mainnet',
-        nodeUrl: 'https://rpc.mainnet.near.org',
-        walletUrl: 'https://wallet.mainnet.near.org',
-        helperUrl: 'https://helper.mainnet.near.org',
+        networkId: 'testnet',
+        nodeUrl: 'https://rpc.testnet.near.org',
+        walletUrl: 'https://wallet.testnet.near.org',
+        helperUrl: 'https://helper.testnet.near.org',
     }
 
     return config
