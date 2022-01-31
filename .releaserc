@@ -6,7 +6,7 @@
         [
             "@semantic-release/exec",
             {
-                "prepareCmd": "set-version ${nextRelease.version}",
+                "prepareCmd": "yarn set-version ${nextRelease.version}",
                 "publishCmd": "yarn npm publish"
             }
         ]
