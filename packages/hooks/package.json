@@ -12,7 +12,6 @@
     },
     "scripts": {
         "prepack": "yarn clean && tsc",
-        "postpack": "yarn run pack",
         "build": "yarn run prepack",
         "clean": "rm -rf ./dist",
         "test": "jest"
