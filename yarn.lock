@@ -1757,34 +1757,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cura/components@workspace:*, @cura/components@workspace:packages/components":
-  version: 0.0.0-use.local
-  resolution: "@cura/components@workspace:packages/components"
-  dependencies:
-    "@babel/core": ^7.16.5
-    "@cura/hooks": "workspace:*"
-    "@storybook/addon-actions": ^6.4.9
-    "@storybook/addon-essentials": ^6.4.9
-    "@storybook/addon-links": ^6.4.9
-    "@storybook/react": ^6.4.9
-    "@theme-ui/color": ^0.12.1
-    "@theme-ui/match-media": ^0.12.1
-    "@theme-ui/presets": ^0.12.1
-    babel-loader: ^8.2.3
-    copyfiles: ^2.4.1
-    find-yarn-workspace-root: ^2.0.0
-    near-api-js: ^0.44.2
-    prettier: 2.5.1
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    semantic-release: ^18.0.1
-    semantic-release-monorepo: ^7.0.5
-    theme-ui: ^0.12.1
-    tslib: ^2.3.1
-    typescript: ^4.5.4
-  languageName: unknown
-  linkType: soft
-
 "@cura/contracts@workspace:packages/contracts":
   version: 0.0.0-use.local
   resolution: "@cura/contracts@workspace:packages/contracts"
@@ -1802,36 +1774,6 @@ __metadata:
     prettier: 2.5.1
   bin:
     curasc: index.js
-  languageName: unknown
-  linkType: soft
-
-"@cura/hooks@workspace:*, @cura/hooks@workspace:packages/hooks":
-  version: 0.0.0-use.local
-  resolution: "@cura/hooks@workspace:packages/hooks"
-  dependencies:
-    "@babel/core": ^7.16.5
-    "@testing-library/react-hooks": ^7.0.2
-    "@types/jest": ^27.0.3
-    babel-loader: ^8.2.3
-    jest: ^27.4.5
-    jest-fetch-mock: ^3.0.3
-    near-api-js: ^0.44.2
-    prettier: 2.5.1
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    semantic-release: ^18.0.1
-    semantic-release-monorepo: ^7.0.5
-    swr: 0.5.7
-    ts-jest: ^27.1.2
-    tslib: ^2.3.1
-    typescript: ^4.5.4
-    unstated-next: ^1.1.0
-  languageName: unknown
-  linkType: soft
-
-"@cura/monorepo@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@cura/monorepo@workspace:."
   languageName: unknown
   linkType: soft
 
@@ -5592,6 +5534,64 @@ __metadata:
   checksum: d966deee6ab9a0f96ed1d25dc73e91a248f64479c91f9daeb15237b8e3c39a02faac4e6afe8987ef9e5aea60a1593cef5882b7456ab2e6196fc0229a93ec39c2
   languageName: node
   linkType: hard
+
+"afaithrafcomponents@workspace:*, afaithrafcomponents@workspace:packages/components":
+  version: 0.0.0-use.local
+  resolution: "afaithrafcomponents@workspace:packages/components"
+  dependencies:
+    "@babel/core": ^7.16.5
+    "@storybook/addon-actions": ^6.4.9
+    "@storybook/addon-essentials": ^6.4.9
+    "@storybook/addon-links": ^6.4.9
+    "@storybook/react": ^6.4.9
+    "@theme-ui/color": ^0.12.1
+    "@theme-ui/match-media": ^0.12.1
+    "@theme-ui/presets": ^0.12.1
+    afaithrafcomponents: "workspace:*"
+    babel-loader: ^8.2.3
+    copyfiles: ^2.4.1
+    find-yarn-workspace-root: ^2.0.0
+    near-api-js: ^0.44.2
+    prettier: 2.5.1
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    semantic-release: ^18.0.1
+    semantic-release-monorepo: ^7.0.5
+    theme-ui: ^0.12.1
+    tslib: ^2.3.1
+    typescript: ^4.5.4
+  languageName: unknown
+  linkType: soft
+
+"afaithrafhooks@workspace:*, afaithrafhooks@workspace:packages/hooks":
+  version: 0.0.0-use.local
+  resolution: "afaithrafhooks@workspace:packages/hooks"
+  dependencies:
+    "@babel/core": ^7.16.5
+    "@testing-library/react-hooks": ^7.0.2
+    "@types/jest": ^27.0.3
+    babel-loader: ^8.2.3
+    jest: ^27.4.5
+    jest-fetch-mock: ^3.0.3
+    near-api-js: ^0.44.2
+    prettier: 2.5.1
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    semantic-release: ^18.0.1
+    semantic-release-monorepo: ^7.0.5
+    swr: 0.5.7
+    ts-jest: ^27.1.2
+    tslib: ^2.3.1
+    typescript: ^4.5.4
+    unstated-next: ^1.1.0
+  languageName: unknown
+  linkType: soft
+
+"afaithrafmonorepo@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "afaithrafmonorepo@workspace:."
+  languageName: unknown
+  linkType: soft
 
 "agent-base@npm:6, agent-base@npm:^6.0.2":
   version: 6.0.2
@@ -10397,8 +10397,6 @@ __metadata:
   resolution: "frontend@workspace:examples/frontend"
   dependencies:
     "@babel/core": ^7.16.5
-    "@cura/components": "workspace:*"
-    "@cura/hooks": "workspace:*"
     "@runwayml/hosted-models": ^0.3.0
     "@storybook/react": ^6.4.9
     "@theme-ui/color": ^0.12.1
@@ -10409,6 +10407,8 @@ __metadata:
     "@types/react": ^17.0.37
     "@typescript-eslint/eslint-plugin": ^5.8.0
     "@typescript-eslint/parser": ^5.8.0
+    afaithrafcomponents: "workspace:*"
+    afaithrafhooks: "workspace:*"
     axios: ^0.24.0
     babel-loader: ^8.2.3
     eslint: ^8.5.0

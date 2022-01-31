@@ -1,6 +1,7 @@
 {
-    "name": "@cura/monorepo",
+    "name": "afaithrafmonorepo",
     "private": true,
+    "repository": "https://github.com/semantic-release/semantic-release/",
     "workspaces": [
         "packages/hooks",
         "packages/components",
@@ -9,16 +10,16 @@
         "examples/frontend"
     ],
     "scripts": {
-        "build:hooks": "yarn workspace @cura/hooks build",
-        "build:components": "yarn workspace @cura/components build",
-        "build:storybook": "yarn workspace @cura/components build-storybook",
+        "build:hooks": "yarn workspace afaithrafhooks build",
+        "build:components": "yarn workspace afaithrafcomponents build",
+        "build:storybook": "yarn workspace afaithrafcomponents build-storybook",
         "build:frontend": "yarn build:hooks && yarn build:components && yarn workspace frontend build",
-        "dev:components": "yarn workspace @cura/components storybook",
+        "dev:components": "yarn workspace afaithrafcomponents storybook",
         "dev:frontend": "yarn workspace frontend dev",
-        "test:hooks": "yarn workspace @cura/hooks test",
-        "test:contracts": "yarn workspace @cura/contracts test",
-        "release:hooks": "yarn workspace @cura/hooks run semantic-release -e semantic-release-monorepo",
-        "release:components": "yarn workspace @cura/components run semantic-release -e semantic-release-monorepo"
+        "test:hooks": "yarn workspace afaithrafhooks test",
+        "test:contracts": "yarn workspace afaithrafcontracts test",
+        "release:hooks": "yarn workspace afaithrafhooks run semantic-release -e semantic-release-monorepo",
+        "release:components": "yarn workspace afaithrafcomponents run semantic-release -e semantic-release-monorepo"
     },
     "version": "0.0.0-development"
 }

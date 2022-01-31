@@ -8,12 +8,12 @@
         "start": "next start"
     },
     "dependencies": {
-        "@cura/components": "workspace:*",
-        "@cura/hooks": "workspace:*",
         "@runwayml/hosted-models": "^0.3.0",
         "@theme-ui/color": "^0.12.1",
         "@theme-ui/match-media": "^0.12.1",
         "@theme-ui/presets": "^0.12.1",
+        "afaithrafcomponents": "workspace:*",
+        "afaithrafhooks": "workspace:*",
         "axios": "^0.24.0",
         "framer-motion": "^5.5.5",
         "near-api-js": "^0.44.2",

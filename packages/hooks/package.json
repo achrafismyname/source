@@ -1,5 +1,5 @@
 {
-    "name": "@cura/hooks",
+    "name": "afaithrafhooks",
     "version": "0.0.0-development",
     "description": "Hooks for front-ends on NEAR blockchain",
     "source": "src/index.ts",
@@ -12,6 +12,7 @@
     },
     "scripts": {
         "prepack": "yarn clean && tsc",
+        "postpack": "yarn run pack",
         "build": "yarn run prepack",
         "clean": "rm -rf ./dist",
         "test": "jest"
