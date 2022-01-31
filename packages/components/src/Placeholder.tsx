@@ -10,7 +10,6 @@ to {
   opacity: 1;
 }
 `
-
 export function Placeholder({
     height = '20px',
     width = '160px',
