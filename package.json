@@ -1,5 +1,5 @@
 {
-    "name": "dummydummymonorepo",
+    "name": "hellohellomonorepo",
     "private": true,
     "repository": "https://github.com/semantic-release/semantic-release/",
     "workspaces": [
@@ -10,16 +10,16 @@
         "examples/frontend"
     ],
     "scripts": {
-        "build:hooks": "yarn workspace dummydummyhooks build",
-        "build:components": "yarn workspace dummydummycomponents build",
-        "build:storybook": "yarn workspace dummydummycomponents build-storybook",
+        "build:hooks": "yarn workspace hellohellohooks build",
+        "build:components": "yarn workspace hellohellocomponents build",
+        "build:storybook": "yarn workspace hellohellocomponents build-storybook",
         "build:frontend": "yarn build:hooks && yarn build:components && yarn workspace frontend build",
-        "dev:components": "yarn workspace dummydummycomponents storybook",
+        "dev:components": "yarn workspace hellohellocomponents storybook",
         "dev:frontend": "yarn workspace frontend dev",
-        "test:hooks": "yarn workspace dummydummyhooks test",
-        "test:contracts": "yarn workspace dummydummycontracts test",
-        "release:hooks": "yarn workspace dummydummyhooks run semantic-release -e semantic-release-monorepo",
-        "release:components": "yarn workspace dummydummycomponents run semantic-release -e semantic-release-monorepo"
+        "test:hooks": "yarn workspace hellohellohooks test",
+        "test:contracts": "yarn workspace hellohellocontracts test",
+        "release:hooks": "yarn workspace hellohellohooks run semantic-release -e semantic-release-monorepo",
+        "release:components": "yarn workspace hellohellocomponents run semantic-release -e semantic-release-monorepo"
     },
     "version": "0.0.0-development"
 }
