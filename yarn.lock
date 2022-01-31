@@ -11169,7 +11169,7 @@ __metadata:
     babel-loader: ^8.2.3
     copyfiles: ^2.4.1
     find-yarn-workspace-root: ^2.0.0
-    hellohellohooks: "workspace:*"
+    hellohellohooks: latest
     near-api-js: ^0.44.2
     prettier: 2.5.1
     react: ^17.0.2
@@ -11181,6 +11181,21 @@ __metadata:
     typescript: ^4.5.4
   languageName: unknown
   linkType: soft
+
+"hellohellohooks@npm:latest":
+  version: 1.0.1
+  resolution: "hellohellohooks@npm:1.0.1"
+  dependencies:
+    "@semantic-release/exec": ^6.0.3
+    near-api-js: ^0.44.2
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    swr: 0.5.7
+    tslib: ^2.3.1
+    unstated-next: ^1.1.0
+  checksum: df5ba8c8a4be7cf820bd705cad32e072178f6b055ae33e7d2fa911ec5ca084db87830892c5333eda7f558fca0430267d1b29dfebd3b01d2689e1f1daa208a77a
+  languageName: node
+  linkType: hard
 
 "hellohellohooks@workspace:*, hellohellohooks@workspace:packages/hooks":
   version: 0.0.0-use.local
