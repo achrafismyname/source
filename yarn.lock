@@ -11169,7 +11169,7 @@ __metadata:
     babel-loader: ^8.2.3
     copyfiles: ^2.4.1
     find-yarn-workspace-root: ^2.0.0
-    hellohellocomponents: "workspace:*"
+    hellohellohooks: "workspace:*"
     near-api-js: ^0.44.2
     prettier: 2.5.1
     react: ^17.0.2
