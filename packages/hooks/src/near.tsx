@@ -41,7 +41,6 @@ function useNearHooks() {
     const signOut = () => {
         nearWallet?.signOut()
     }
-
     const getContract = (contractName: string, contractMethods: {}) => {
         return new Contract(nearAccount, contractName, {
             ...contractMethods,
