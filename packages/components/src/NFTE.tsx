@@ -83,6 +83,7 @@ export function NFTE({
 
     error && !loading && console.error(error)
 
+    
     return (
         <Container
             p={[0,0,0]}
