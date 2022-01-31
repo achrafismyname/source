@@ -2,11 +2,12 @@
     "plugins": [
         "@semantic-release/commit-analyzer",
         "@semantic-release/release-notes-generator",
-        "@semantic-release/npm",
+        "@semantic-release/github",
         [
             "@semantic-release/exec",
             {
-                "publishCmd": "yarn publish"
+                "prepareCmd": "set-version ${nextRelease.version}",
+                "publishCmd": "yarn npm publish"
             }
         ]
     ]
