@@ -8858,65 +8858,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dummydummycomponents@workspace:*, dummydummycomponents@workspace:packages/components":
-  version: 0.0.0-use.local
-  resolution: "dummydummycomponents@workspace:packages/components"
-  dependencies:
-    "@babel/core": ^7.16.5
-    "@storybook/addon-actions": ^6.4.9
-    "@storybook/addon-essentials": ^6.4.9
-    "@storybook/addon-links": ^6.4.9
-    "@storybook/react": ^6.4.9
-    "@theme-ui/color": ^0.12.1
-    "@theme-ui/match-media": ^0.12.1
-    "@theme-ui/presets": ^0.12.1
-    babel-loader: ^8.2.3
-    copyfiles: ^2.4.1
-    dummydummycomponents: "workspace:*"
-    find-yarn-workspace-root: ^2.0.0
-    near-api-js: ^0.44.2
-    prettier: 2.5.1
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    semantic-release: ^18.0.1
-    semantic-release-monorepo: ^7.0.5
-    theme-ui: ^0.12.1
-    tslib: ^2.3.1
-    typescript: ^4.5.4
-  languageName: unknown
-  linkType: soft
-
-"dummydummyhooks@workspace:*, dummydummyhooks@workspace:packages/hooks":
-  version: 0.0.0-use.local
-  resolution: "dummydummyhooks@workspace:packages/hooks"
-  dependencies:
-    "@babel/core": ^7.16.5
-    "@semantic-release/exec": ^6.0.3
-    "@testing-library/react-hooks": ^7.0.2
-    "@types/jest": ^27.0.3
-    babel-loader: ^8.2.3
-    jest: ^27.4.5
-    jest-fetch-mock: ^3.0.3
-    near-api-js: ^0.44.2
-    prettier: 2.5.1
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    semantic-release: ^18.0.1
-    semantic-release-monorepo: ^7.0.5
-    swr: 0.5.7
-    ts-jest: ^27.1.2
-    tslib: ^2.3.1
-    typescript: ^4.5.4
-    unstated-next: ^1.1.0
-  languageName: unknown
-  linkType: soft
-
-"dummydummymonorepo@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "dummydummymonorepo@workspace:."
-  languageName: unknown
-  linkType: soft
-
 "duplexer2@npm:~0.1.0":
   version: 0.1.4
   resolution: "duplexer2@npm:0.1.4"
@@ -10426,14 +10367,14 @@ __metadata:
     "@typescript-eslint/parser": ^5.8.0
     axios: ^0.24.0
     babel-loader: ^8.2.3
-    dummydummycomponents: "workspace:*"
-    dummydummyhooks: "workspace:*"
     eslint: ^8.5.0
     eslint-config-prettier: ^8.3.0
     eslint-plugin-jsx-a11y: ^6.5.1
     eslint-plugin-react: ^7.27.1
     eslint-plugin-react-hooks: ^4.3.0
     framer-motion: ^5.5.5
+    hellohellocomponents: "workspace:*"
+    hellohellohooks: "workspace:*"
     near-api-js: ^0.44.2
     next: ^12.0.7
     prettier: ^2.5.1
@@ -11212,6 +11153,65 @@ __metadata:
   checksum: 3d4d6babccccd79c5c5a3f929a68af33360d6445587d628087f39a965079d84f18ce9c3d3f917ee1e3978916fc833bb8b29377c3b403f919426f91bc6965e7a7
   languageName: node
   linkType: hard
+
+"hellohellocomponents@workspace:*, hellohellocomponents@workspace:packages/components":
+  version: 0.0.0-use.local
+  resolution: "hellohellocomponents@workspace:packages/components"
+  dependencies:
+    "@babel/core": ^7.16.5
+    "@storybook/addon-actions": ^6.4.9
+    "@storybook/addon-essentials": ^6.4.9
+    "@storybook/addon-links": ^6.4.9
+    "@storybook/react": ^6.4.9
+    "@theme-ui/color": ^0.12.1
+    "@theme-ui/match-media": ^0.12.1
+    "@theme-ui/presets": ^0.12.1
+    babel-loader: ^8.2.3
+    copyfiles: ^2.4.1
+    find-yarn-workspace-root: ^2.0.0
+    hellohellocomponents: "workspace:*"
+    near-api-js: ^0.44.2
+    prettier: 2.5.1
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    semantic-release: ^18.0.1
+    semantic-release-monorepo: ^7.0.5
+    theme-ui: ^0.12.1
+    tslib: ^2.3.1
+    typescript: ^4.5.4
+  languageName: unknown
+  linkType: soft
+
+"hellohellohooks@workspace:*, hellohellohooks@workspace:packages/hooks":
+  version: 0.0.0-use.local
+  resolution: "hellohellohooks@workspace:packages/hooks"
+  dependencies:
+    "@babel/core": ^7.16.5
+    "@semantic-release/exec": ^6.0.3
+    "@testing-library/react-hooks": ^7.0.2
+    "@types/jest": ^27.0.3
+    babel-loader: ^8.2.3
+    jest: ^27.4.5
+    jest-fetch-mock: ^3.0.3
+    near-api-js: ^0.44.2
+    prettier: 2.5.1
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    semantic-release: ^18.0.1
+    semantic-release-monorepo: ^7.0.5
+    swr: 0.5.7
+    ts-jest: ^27.1.2
+    tslib: ^2.3.1
+    typescript: ^4.5.4
+    unstated-next: ^1.1.0
+  languageName: unknown
+  linkType: soft
+
+"hellohellomonorepo@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "hellohellomonorepo@workspace:."
+  languageName: unknown
+  linkType: soft
 
 "hey-listen@npm:^1.0.8":
   version: 1.0.8
